@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.widget.CardView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ import com.plain.bilibilitools.utils.ToastUtils;
 
 import java.lang.ref.WeakReference;
 
+import butterknife.BindInt;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -26,7 +28,9 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class MainActivity extends BaseActivity {
+import static android.view.View.*;
+
+public class FansQueryActivity extends BaseActivity {
 
     @BindView(R.id.et_user_id)
     EditText mEtUserId;
@@ -36,6 +40,8 @@ public class MainActivity extends BaseActivity {
     CardView mCvResult;
     @BindView(R.id.tv_result)
     TextView mTvResult;
+    @BindView(R.id.tl_root)
+    Toolbar tlRoot;
 
     private String userId;
     private MyHandler mMyHandler;
@@ -47,11 +53,20 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_fans_query);
         ButterKnife.bind(this);
+        tlRoot.setTitle("粉丝查询");
+        tlRoot.setTitleTextColor(getResources().getColor(R.color.white));
+        tlRoot.setLogo(R.drawable.ic_favorite_black_24dp);
+        tlRoot.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        tlRoot.setNavigationOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         setInit();
     }
-
 
     @Override
     protected void initData() {
@@ -109,22 +124,22 @@ public class MainActivity extends BaseActivity {
 
     private static class MyHandler extends Handler {
 
-        private final WeakReference<MainActivity> mWeakReference;
+        private final WeakReference<FansQueryActivity> mWeakReference;
 
-        MyHandler(MainActivity activity) {
+        MyHandler(FansQueryActivity activity) {
             mWeakReference = new WeakReference<>(activity);
         }
 
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            MainActivity activity = mWeakReference.get();
+            FansQueryActivity activity = mWeakReference.get();
             if (activity.mDestroyTag != -1) {
                 activity.stopLoading();
                 switch (msg.what) {
                     case 0:
                         activity.mDataBean = (ResultBean.DataBean) msg.obj;
-                        activity.mCvResult.setVisibility(View.VISIBLE);
+                        activity.mCvResult.setVisibility(VISIBLE);
                         String follower = String.valueOf(activity.mDataBean.getFollower());
                         activity.mTvResult.setText(follower);
                         if (follower.equals("0")) {
