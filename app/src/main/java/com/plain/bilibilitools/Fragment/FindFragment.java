@@ -10,11 +10,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.plain.bilibilitools.R;
+import com.plain.bilibilitools.base.BaseFragment;
 
 
-public class FindFragment extends Fragment {
-
-    private View rootView;
+public class FindFragment extends BaseFragment {
 
     public static FindFragment newInstance() {
         FindFragment fragment = new FindFragment();
@@ -26,10 +25,8 @@ public class FindFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        rootView = inflater.inflate(R.layout.fragment_find, container, false);
-
-        return rootView;
+        mRootView = inflater.inflate(R.layout.fragment_find, container, false);
+        return mRootView;
     }
 
 }

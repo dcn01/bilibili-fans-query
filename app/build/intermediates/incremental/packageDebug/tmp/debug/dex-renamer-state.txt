@@ -1,7 +1,7 @@
-#Thu Apr 04 22:59:05 CST 2019
-base.0=/Users/PlainFiles/Documents/AndroidProject/bilibili-fans-query/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+#Fri Aug 02 16:30:27 CST 2019
+base.0=/Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/PlainFiles/Documents/AndroidProject/bilibili-fans-query/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.1=/Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/build/intermediates/dex/debug/mergeExtDexDebug/out

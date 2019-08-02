@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/PlainFiles/Documents/AndroidProject/bilibili-fans-query/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "/Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/009837f4bc6e81325d9b3fc9a4ac253d/res/values-kk/values-kk.xml",

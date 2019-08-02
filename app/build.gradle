@@ -35,4 +35,6 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.0'
     implementation 'com.github.GrenderG:Toasty:1.4.1'
 
+    implementation 'com.github.plain-dev:MyAndroidExercise:v1.0.1'
+
 }

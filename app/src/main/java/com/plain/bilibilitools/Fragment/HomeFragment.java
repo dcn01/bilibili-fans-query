@@ -2,24 +2,26 @@ package com.plain.bilibilitools.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.plain.bilibilitools.R;
 import com.plain.bilibilitools.activity.FansQueryActivity;
 import com.plain.bilibilitools.adapter.FeatureListAdapter;
+import com.plain.bilibilitools.adapter.PicBannerAdapter;
 import com.plain.bilibilitools.base.BaseFragment;
 import com.plain.bilibilitools.bean.FeatureListBean;
+import com.plain.bilibilitools.bean.PicListBean;
+import com.plain.bilibilitools.utils.ToastUtils;
+import com.plain.rvbannerlibrary.RvBannerView;
+import com.plain.rvbannerlibrary.inter.IRvPageTouchListener;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -31,9 +33,11 @@ public class HomeFragment extends BaseFragment {
 
     @BindView(R.id.rl_table)
     RecyclerView rlTable;
+    @BindView(R.id.rvBanner)
+    RvBannerView rvBanner;
 
-    private View rootView;
     private ArrayList<FeatureListBean> featureListBeans;
+    private List<PicListBean> mPicList;
 
     public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
@@ -45,10 +49,10 @@ public class HomeFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        unbinder = ButterKnife.bind(this, rootView);
+        mRootView = inflater.inflate(R.layout.fragment_home, container, false);
+        unbinder = ButterKnife.bind(this, mRootView);
         setInit();
-        return rootView;
+        return mRootView;
     }
 
     private void setInit() {
@@ -60,9 +64,25 @@ public class HomeFragment extends BaseFragment {
         featureListBeans = new ArrayList<>();
         featureListBeans.add(new FeatureListBean
                 (R.drawable.ic_favorite_black_24dp, "粉丝查询", "依托B站API，输入用户ID即可查询粉丝数"));
+
+        mPicList = new ArrayList<>();
+        mPicList.add(new PicListBean("https://gitee.com/plain-dev/oss/raw/master/upic_library/AKWElE.jpg", "", "APP"));
+        mPicList.add(new PicListBean("https://gitee.com/plain-dev/oss/raw/master/upic_library/RlTA4R.jpg", "", "APP"));
+        mPicList.add(new PicListBean("https://gitee.com/plain-dev/oss/raw/master/upic_library/CWV8bi.jpg", "", "APP"));
+
     }
 
     private void initView() {
+
+        PicBannerAdapter picBannerAdapter = new PicBannerAdapter(getContext(), mPicList);
+        picBannerAdapter.setRvPageTouchListener(new IRvPageTouchListener() {
+            @Override
+            public void clickItem(int position) {
+                ToastUtils.showToast(getContext(), mPicList.get(position).getPicUrl(), ToastUtils.TYPE_INFO);
+            }
+        });
+        rvBanner.setAdapter(picBannerAdapter);
+
         LinearLayoutManager lm = new LinearLayoutManager(activity);
         lm.setOrientation(LinearLayoutManager.VERTICAL);
         FeatureListAdapter adapter = new FeatureListAdapter(activity, featureListBeans);
@@ -78,6 +98,7 @@ public class HomeFragment extends BaseFragment {
         });
         rlTable.setLayoutManager(lm);
         rlTable.setAdapter(adapter);
+
     }
 
     @Override

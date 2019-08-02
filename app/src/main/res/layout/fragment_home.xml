@@ -6,10 +6,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <com.plain.rvbannerlibrary.RvBannerView
+        android:id="@+id/rvBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rv_auto_play="true"
+        app:rv_card_elevation="5dp"
+        app:rv_card_radius="10dp"
+        app:rv_height="150dp"
+        app:rv_indicator_select_drawable="@drawable/rv_banner_select"
+        app:rv_indicator_un_select_drawable="@drawable/rv_banner_un_select"
+        app:rv_interval_time_ms="3000"
+        app:rv_margin_bottom="20dp"
+        app:rv_margin_end="12dp"
+        app:rv_margin_start="12dp"
+        app:rv_margin_top="20dp"
+        app:rv_show_indicator="true">
+
+    </com.plain.rvbannerlibrary.RvBannerView>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rl_table"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
 
     </android.support.v7.widget.RecyclerView>
 

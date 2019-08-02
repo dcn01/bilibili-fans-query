@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.plain-dev:MyAndroidExercise:v1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MyAndroidExercise-v1.0.aar/37d50d50d66a1544df71777bbc5e6fb4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MyAndroidExercise-v1.0.aar/37d50d50d66a1544df71777bbc5e6fb4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.plain-dev/MyAndroidExercise/v1.0/bb8f95f35e55c98540c8ded987a1c7ec4731abe/MyAndroidExercise-v1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
