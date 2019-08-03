@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.NavigationActivity">
 
-    <include layout="@layout/layout_totalbar"/>
+    <include layout="@layout/layout_toolbar"/>
 
     <FrameLayout
         android:id="@+id/fl"

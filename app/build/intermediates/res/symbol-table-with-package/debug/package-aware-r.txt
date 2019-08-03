@@ -1032,6 +1032,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24dp
+drawable ic_bilibili_logo
 drawable ic_check_white_24dp
 drawable ic_clear_white_24dp
 drawable ic_dashboard_black_24dp
@@ -1046,6 +1047,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_thumb_up_black_24dp
+drawable ic_zhihu_logo
 drawable indicator_shape_select
 drawable indicator_shape_unselect
 drawable mtrl_snackbar_background
@@ -1345,6 +1347,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_fans_query
 layout activity_navigation
+layout activity_zhi_hu_news
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1363,7 +1366,7 @@ layout fragment_find
 layout fragment_home
 layout fragment_my
 layout item_rv_banner_pic
-layout layout_totalbar
+layout layout_toolbar
 layout main_rl_table_item
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

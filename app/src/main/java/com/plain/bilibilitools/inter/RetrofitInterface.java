@@ -13,6 +13,8 @@ import retrofit2.http.Query;
 public interface RetrofitInterface {
 
     @GET("x/relation/stat?")
-    Call<ResultBean> getCall(@Query("vmid") String avNumber);
+    Call<ResultBean> getFansByUserId(@Query("vmid") String avNumber);
+    @GET
+    Call<String> getZhiHuDailyByEmpty();
 
 }

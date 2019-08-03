@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [com.android.support:design:28.0.0] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/7019608f83af04119f24e546e7ed1883/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.GrenderG:Toasty:1.4.1] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.1.aar/9c46ca4f7cb75374bc1b81ce6977d825/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.plain-dev:MyAndroidExercise:v1.0.1] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/MyAndroidExercise-v1.0.1.aar/91356218ae68f441e2709235612d5a38/AndroidManifest.xml:2:1-11:12
@@ -42,29 +42,31 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/PlainFiles/.grad
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5c892f8be7fcc59a407d6e2eb6a67b20/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fbea55526d1403fc03e68d174d31afca/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3d5118379fbb23756c27baedc0a98675/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:3:5-38
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:4:5-38
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:7:5-33:19
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:8:5-42:19
 MERGED from [com.android.support:design:28.0.0] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/7019608f83af04119f24e546e7ed1883/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/7019608f83af04119f24e546e7ed1883/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/558f68e6ac93d0cbd9d0fe245954e9cc/AndroidManifest.xml:9:5-20
@@ -80,49 +82,69 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/PlainFiles/.grad
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/PlainFiles/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/45902c57c7fa097d8b598d16a9d6f566/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:17:9-48
 	android:roundIcon
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:15:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:15:9-44
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:16:9-44
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:8:9-34
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:9:9-34
+activity#com.plain.bilibilitools.activity.ZhiHuNewsActivity
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:18:9-73
+	android:name
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:18:19-61
 activity#com.plain.bilibilitools.activity.NavigationActivity
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:16:9-25:20
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:screenOrientation
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:19:13-49
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:22:13-49
 	android:configChanges
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:18:13-63
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:21:13-63
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:17:13-56
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:20:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.plain.bilibilitools.activity.FansQueryActivity
-ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:29:9-41:20
 	android:screenOrientation
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:29:13-49
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:32:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:30:13-67
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:33:13-67
 	android:configChanges
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:28:13-63
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:31:13-63
 	android:name
-		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:27:13-55
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:30:13-55
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:34:13-40:29
+action#android.intent.action.SEND
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:37:27-73
+data
+ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:39:17-55
+	android:mimeType
+		ADDED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml:39:23-52
 uses-sdk
 INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/PlainFiles/项目/Android-Projects/bilibili-fans-query/app/src/main/AndroidManifest.xml

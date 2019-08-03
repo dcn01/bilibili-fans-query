@@ -1,6 +1,5 @@
 package com.plain.bilibilitools.base;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,10 +11,10 @@ import com.plain.bilibilitools.view.LoadingDialog;
  * Create by Plain on 2019/4/4 10:08 PM
  * Description: APP 所有Activity -----> 父Activity
  */
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     protected Context mContext;
-    private LoadingDialog mLoadingDialog;
+    private LoadingDialog mLoadingDialog = null;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,18 +33,36 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     protected void initView() {
-    
+
     }
 
+    /**
+     * 显示加载框
+     *
+     * @param m 提示信息
+     */
     public void startLoading(String m) {
-        mLoadingDialog = LoadingDialog.createMyDialog(this, m);
+        if (mLoadingDialog == null) {
+            mLoadingDialog = LoadingDialog.createMyDialog(this, m);
+        }
         mLoadingDialog.show();
     }
 
+    /**
+     * 销毁加载框
+     */
     public void stopLoading() {
         if (mLoadingDialog != null) {
-            mLoadingDialog.dismiss();
+            if (mLoadingDialog.isShowing()) {
+                mLoadingDialog.dismiss();
+            }
+            mLoadingDialog = null;
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+    }
 }
